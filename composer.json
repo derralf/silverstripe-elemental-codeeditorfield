@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Derralf\\Elements\\ImageTeaser\\": "src/"
+            "Derralf\\Elements\\CodeEditorField\\": "src/"
         }
     }
 
