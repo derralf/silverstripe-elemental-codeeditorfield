@@ -4,6 +4,5 @@
 
 <% if $HTML %>
     <div class="element__content">$HTML</div>
-    [HIER der CODE]
 <% end_if %>
 
