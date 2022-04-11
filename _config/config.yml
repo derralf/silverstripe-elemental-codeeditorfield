@@ -1,5 +1,5 @@
 
-Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField
+Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField:
   # default editor language
   defaultProgrammingLanguageMode: 'ace/mode/html'
 
