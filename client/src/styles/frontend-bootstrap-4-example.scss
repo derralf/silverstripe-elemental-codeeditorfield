@@ -1,0 +1,57 @@
+/* ==========================================================================
+   derralf/elemental-codeeditorfield
+   ========================================================================== */
+
+// Bootstrap dependencies
+// comment when using this this file as a tempolate in your bootstrap template
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+
+
+
+
+// general layout
+.derralf__elements__codeEditorfield__element__elementcodeeditorfield {
+    .element__title,
+    .element__content {
+        text-align: center;
+    }
+
+    .card {
+        background: transparent;
+        &.bg-primary,
+        &.bg-secondary,
+        &.bg-success,
+        &.bg-danger,
+        &.bg-warning,
+        &.bg-info {
+            color: #FFF;
+            .btn {
+                @include button-variant(#FFF, #FFF);
+            }
+        }
+        &.bg-dark {
+            color: #FFF;
+            .btn {
+                @include button-variant(#FFF, #FFF);
+            }
+        }
+
+    }
+
+    .element__container-breakout {
+        width: calc(100vw);
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: calc(-50vw);
+        margin-right: calc(-50vw);
+        .card {
+            border-radius: 0;
+            //padding-left: 0;
+            //padding-right: 0;
+        }
+    }
+}

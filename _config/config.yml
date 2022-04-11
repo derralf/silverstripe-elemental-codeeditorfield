@@ -1,0 +1,67 @@
+
+Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField
+  # default editor language
+  defaultProgrammingLanguageMode: 'ace/mode/html'
+
+
+
+#
+# use this as a templete in your own config
+#
+
+
+
+##############################################################
+# Template/Example for Bootstrap 3
+##############################################################
+
+# ---
+# Name: elementalcodeeditorfield
+# After: 'elemental-codeeditorfield'
+# ---
+# 
+# Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+#   # default editor language
+#   defaultProgrammingLanguageMode: 'ace/mode/html'
+#   # disable StyledTitle
+#   title_tag_variants: null
+#   title_alignment_variants: null
+#   # styles
+#   style_default_description: 'Standard: 2 Spalten'
+#   styles:
+#     DefaultWell: 'with well'
+#     FullWidthWell: 'with well and full width (Container-Breakout)'
+
+
+
+##############################################################
+# Template/Example for Bootstrap 4
+##############################################################
+
+#---
+#Name: elementalcodeeditorfield
+#After: 'elemental-codeeditorfield'
+#---
+#
+#Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+#  # default editor language
+#  defaultProgrammingLanguageMode: 'ace/mode/html'
+#  # disable StyledTitle
+#  title_tag_variants: null
+#  title_alignment_variants: null
+### Bootstrap 4 default/example config
+#styles:
+#  BS4Card: 'with well (BS4-card)'
+#  BS4FullWidthCard: 'with well (BS4-card) and full width (Container-Breakout)'
+#styles_default_description: ''
+#colors:
+#  bg-primary: 'primary'
+#  bg-secondary: 'secondary'
+#  bg-light: 'light'
+#  bg-success: 'success'
+#  bg-danger: 'danger'
+#  bg-warning: 'warning'
+#  bg-info: 'info'
+#  bg-dark: 'dark'
+
+
