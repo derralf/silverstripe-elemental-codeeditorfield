@@ -48,7 +48,7 @@ Name: elementalcodeeditorfield
 After: 'elemental-codeeditorfield'
 ---
 
-Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField:
   # default editor language
   defaultProgrammingLanguageMode: 'ace/mode/html'
   # disable StyledTitle
@@ -75,7 +75,7 @@ Name: elementalcodeeditorfield
 After: 'elemental-codeeditorfield'
 ---
 
-Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField:
   # default editor language
   defaultProgrammingLanguageMode: 'ace/mode/html'
   # disable StyledTitle
@@ -118,7 +118,7 @@ See Elemental Docs for [how to disable the default styles](https://github.com/dn
 You may add your own templates/styles like this:
 
 ```
-Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField:
   styles:
     MyCustomTemplate: "new customized special Layout"
 ```

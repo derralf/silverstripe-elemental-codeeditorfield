@@ -1,5 +1,5 @@
 
-Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField
+Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField
   # default editor language
   defaultProgrammingLanguageMode: 'ace/mode/html'
 
@@ -20,7 +20,7 @@ Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField
 # After: 'elemental-codeeditorfield'
 # ---
 # 
-# Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+# Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField:
 #   # default editor language
 #   defaultProgrammingLanguageMode: 'ace/mode/html'
 #   # disable StyledTitle
@@ -43,7 +43,7 @@ Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField
 #After: 'elemental-codeeditorfield'
 #---
 #
-#Derralf\Elements\ImageTeaser\Element\ElementCodeEditorField:
+#Derralf\Elements\CodeEditorField\Element\ElementCodeEditorField:
 #  # default editor language
 #  defaultProgrammingLanguageMode: 'ace/mode/html'
 #  # disable StyledTitle
