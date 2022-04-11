@@ -27,7 +27,7 @@ class ElementCodeEditorField extends BaseElement
 
     private static $icon = 'font-icon-block-content';
 
-    private static $table_name = 'ElementImageTeaserHolder';
+    private static $table_name = 'ElementCodeEditorField';
 
     private static $singular_name = 'CodeEditor-Field';
     private static $plural_name = 'CodeEditor-Fields';
