@@ -90,7 +90,7 @@ class ElementCodeEditorField extends BaseElement
 
             $CodeEditorField = new CodeEditorField('HTML', 'Code');
             $code_mode = ($this->config()->get('defaultProgrammingLanguageMode')) ? $this->config()->get('defaultProgrammingLanguageMode') : 'ace/mode/html';
-            $myCodeEditorField->setMode($code_mode);
+            $CodeEditorField->setMode($code_mode);
             $fields->replaceField('HTML', $CodeEditorField);
 
 
